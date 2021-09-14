@@ -670,50 +670,29 @@ print(pair_final)
     ##   Total number of pairs: 39 pairs
     ## 
     ## ldat with 39 rows and 8 columns
-    ##     x  y    company        hq     score select company_revn
-    ## 1   1  1 0.63636364 0.9411765 0.7278075   TRUE      walmart
-    ## 2   1 10 0.10526316 0.3333333 0.1736842  FALSE      walmart
-    ## 3   2  1 0.57142857 0.9333333 0.6800000   TRUE       walmrt
-    ## 4   2 10 0.11111111 0.3750000 0.1902778  FALSE       walmrt
-    ## 5   3  2 1.00000000 0.9473684 0.9842105   TRUE        apple
-    ## 6   3  4 0.16666667 0.2352941 0.1872549  FALSE        apple
-    ## 7   3  9 0.15384615 0.9473684 0.3919028  FALSE        apple
-    ## 8   4  2 0.88888889 1.0000000 0.9222222   TRUE         aple
-    ## 9   4  4 0.17142857 0.2222222 0.1866667  FALSE         aple
-    ## 10  4  9 0.15789474 1.0000000 0.4105263  FALSE         aple
-    ## :   :  :          :         :         :      :            :
-    ## 30 12  5 0.11111111 0.3529412 0.1836601  FALSE     starbuck
-    ## 31 12  7 0.94117647 0.9473684 0.9430341   TRUE     starbuck
-    ## 32 13  3 0.26666667 1.0000000 0.4866667  FALSE       warner
-    ## 33 13  6 0.27586207 0.2222222 0.2597701  FALSE       warner
-    ## 34 13  8 0.70588235 1.0000000 0.7941176   TRUE       warner
-    ## 35 14  2 0.28571429 1.0000000 0.5000000  FALSE           hp
-    ## 36 14  4 0.06060606 0.2222222 0.1090909  FALSE           hp
-    ## 37 14  9 0.11111111 1.0000000 0.3777778  FALSE           hp
-    ## 38 15  1 0.18181818 0.3750000 0.2397727  FALSE      bestbuy
-    ## 39 15 10 0.73684211 0.9411765 0.7981424   TRUE      bestbuy
-    ##                          company_prfl
-    ## 1                     wal-mart stores
-    ## 2                        best buy co.
-    ## 3                     wal-mart stores
-    ## 4                        best buy co.
-    ## 5                               apple
-    ## 6     international business machines
-    ## 7  hewlett packard enterprise company
-    ## 8                               apple
-    ## 9     international business machines
-    ## 10 hewlett packard enterprise company
-    ## :                                   :
-    ## 30                         mcdonald's
-    ## 31                          starbucks
-    ## 32           twenty-first century fox
-    ## 33            the walt disney company
-    ## 34                        time warner
-    ## 35                              apple
-    ## 36    international business machines
-    ## 37 hewlett packard enterprise company
-    ## 38                    wal-mart stores
-    ## 39                       best buy co.
+    ##     x  y    company        hq     score select company_revn                        company_prfl
+    ## 1   1  1 0.63636364 0.9411765 0.7278075   TRUE      walmart                     wal-mart stores
+    ## 2   1 10 0.10526316 0.3333333 0.1736842  FALSE      walmart                        best buy co.
+    ## 3   2  1 0.57142857 0.9333333 0.6800000   TRUE       walmrt                     wal-mart stores
+    ## 4   2 10 0.11111111 0.3750000 0.1902778  FALSE       walmrt                        best buy co.
+    ## 5   3  2 1.00000000 0.9473684 0.9842105   TRUE        apple                               apple
+    ## 6   3  4 0.16666667 0.2352941 0.1872549  FALSE        apple     international business machines
+    ## 7   3  9 0.15384615 0.9473684 0.3919028  FALSE        apple  hewlett packard enterprise company
+    ## 8   4  2 0.88888889 1.0000000 0.9222222   TRUE         aple                               apple
+    ## 9   4  4 0.17142857 0.2222222 0.1866667  FALSE         aple     international business machines
+    ## 10  4  9 0.15789474 1.0000000 0.4105263  FALSE         aple  hewlett packard enterprise company
+    ## :   :  :          :         :         :      :            :                                   :
+    ## 30 12  5 0.11111111 0.3529412 0.1836601  FALSE     starbuck                          mcdonald's
+    ## 31 12  7 0.94117647 0.9473684 0.9430341   TRUE     starbuck                           starbucks
+    ## 32 13  3 0.26666667 1.0000000 0.4866667  FALSE       warner            twenty-first century fox
+    ## 33 13  6 0.27586207 0.2222222 0.2597701  FALSE       warner             the walt disney company
+    ## 34 13  8 0.70588235 1.0000000 0.7941176   TRUE       warner                         time warner
+    ## 35 14  2 0.28571429 1.0000000 0.5000000  FALSE           hp                               apple
+    ## 36 14  4 0.06060606 0.2222222 0.1090909  FALSE           hp     international business machines
+    ## 37 14  9 0.11111111 1.0000000 0.3777778  FALSE           hp  hewlett packard enterprise company
+    ## 38 15  1 0.18181818 0.3750000 0.2397727  FALSE      bestbuy                     wal-mart stores
+    ## 39 15 10 0.73684211 0.9411765 0.7981424   TRUE      bestbuy                        best buy co.
+
 
 ### Step 5. Link
 
