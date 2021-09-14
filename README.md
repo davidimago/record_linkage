@@ -41,28 +41,18 @@ print(revenue)
 print(profile)
 ```
 
-    ##                                        company                      hq
-    ## 1                        Wal-Mart Stores, Inc.   Bentonville, Arkansas
-    ## 2                                  Apple, Inc.   Cupertino, California
-    ## 3               Twenty-First Century Fox, Inc. New York City, New York
-    ## 4  International Business Machines Corporation        Armonk, New York
-    ## 5                       McDonald's Corporation     Oak Brook, Illinois
-    ## 6                      The Walt Disney Company     Burbank, California
-    ## 7                        Starbucks Corporation     Seattle, Washington
-    ## 8                             Time Warner Inc. New York City, New York
-    ## 9           Hewlett Packard Enterprise Company   Palo Alto, California
-    ## 10                          Best Buy Co., Inc.    Richfield, Minnesota
-    ##                           sector employee
-    ## 1                      Retailing  2300000
-    ## 2                     Technology   116000
-    ## 3                          Media    21500
-    ## 4                     Technology   414400
-    ## 5  Hotels, Restaurants & Leisure   375000
-    ## 6                          Media   195000
-    ## 7  Hotels, Restaurants & Leisure   254000
-    ## 8                          Media    25000
-    ## 9                     Technology   195000
-    ## 10                     Retailing   125000
+    ##                                        company                      hq                         sector employee
+    ## 1                        Wal-Mart Stores, Inc.   Bentonville, Arkansas                      Retailing  2300000
+    ## 2                                  Apple, Inc.   Cupertino, California                     Technology   116000
+    ## 3               Twenty-First Century Fox, Inc. New York City, New York                          Media    21500
+    ## 4  International Business Machines Corporation        Armonk, New York                     Technology   414400
+    ## 5                       McDonald's Corporation     Oak Brook, Illinois  Hotels, Restaurants & Leisure   375000
+    ## 6                      The Walt Disney Company     Burbank, California                          Media   195000
+    ## 7                        Starbucks Corporation     Seattle, Washington  Hotels, Restaurants & Leisure   254000
+    ## 8                             Time Warner Inc. New York City, New York                          Media    25000
+    ## 9           Hewlett Packard Enterprise Company   Palo Alto, California                     Technology   195000
+    ## 10                          Best Buy Co., Inc.    Richfield, Minnesota                      Retailing   125000
+
 
 Notice that there is no identifier (id) between those data. The potential identifier that we can use is company name. But the company name between those data has different format, the revenue data has short name and the other has long name. Also, there is some typos in revenue data.
 
