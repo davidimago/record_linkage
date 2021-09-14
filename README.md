@@ -788,60 +788,25 @@ reclin <- function(w1, w2, th){
 reclin(0.7, 0.3, 0.5)
 ```
 
-    ##           company.x    region revenue       hq.x                      sector.x
-    ## 1           walmart     South  288838  arkansass                     Retailing
-    ## 2            walmrt   Midwest  197035    arkansa                     Retailing
-    ## 3             apple      West  143810  californa                    Technology
-    ## 4              aple Northeast   71829 california                    Technology
-    ## 5  21st century fox Northeast   17022    new yor                         Media
-    ## 6               mcd   Midwest   12505  illinouis Hotels, Restaurants & Leisure
-    ## 7               mcd      West   12117   illinois Hotels, Restaurants & Leisure
-    ## 8            disney      West   37519  califrnia                         Media
-    ## 9            disniy     South   18113 california                         Media
-    ## 10         starbuck      West   21316  wasington Hotels, Restaurants & Leisure
-    ## 11           warner Northeast   29318   new york                         Media
-    ## 12          bestbuy   Midwest   39403   minesota                     Retailing
-    ## 13              fox   Midwest   10304    nw york                         Media
-    ## 14              ibm Northeast   79919   new york                    Technology
-    ## 15               hp      West   50123 california                    Technology
-    ## 16             <NA>      <NA>      NA       <NA>                          <NA>
-    ## 17             <NA>      <NA>      NA       <NA>                          <NA>
-    ##                             company.y       hq.y                      sector.y
-    ## 1                     wal-mart stores   arkansas                     Retailing
-    ## 2                     wal-mart stores   arkansas                     Retailing
-    ## 3                               apple california                    Technology
-    ## 4                               apple california                    Technology
-    ## 5            twenty-first century fox   new york                         Media
-    ## 6                          mcdonald's   illinois Hotels, Restaurants & Leisure
-    ## 7                          mcdonald's   illinois Hotels, Restaurants & Leisure
-    ## 8             the walt disney company california                         Media
-    ## 9             the walt disney company california                         Media
-    ## 10                          starbucks washington Hotels, Restaurants & Leisure
-    ## 11                        time warner   new york                         Media
-    ## 12                       best buy co.  minnesota                     Retailing
-    ## 13                               <NA>       <NA>                          <NA>
-    ## 14                               <NA>       <NA>                          <NA>
-    ## 15                               <NA>       <NA>                          <NA>
-    ## 16    international business machines   new york                    Technology
-    ## 17 hewlett packard enterprise company california                    Technology
-    ##    employee
-    ## 1   2300000
-    ## 2   2300000
-    ## 3    116000
-    ## 4    116000
-    ## 5     21500
-    ## 6    375000
-    ## 7    375000
-    ## 8    195000
-    ## 9    195000
-    ## 10   254000
-    ## 11    25000
-    ## 12   125000
-    ## 13       NA
-    ## 14       NA
-    ## 15       NA
-    ## 16   414400
-    ## 17   195000
+    ##           company.x    region revenue       hq.x                      sector.x                           company.y       hq.y                      sector.y  employee
+    ## 1           walmart     South  288838  arkansass                     Retailing                     wal-mart stores   arkansas                     Retailing   2300000
+    ## 2            walmrt   Midwest  197035    arkansa                     Retailing                     wal-mart stores   arkansas                     Retailing   2300000
+    ## 3             apple      West  143810  californa                    Technology                               apple california                    Technology    116000
+    ## 4              aple Northeast   71829 california                    Technology                               apple california                    Technology    116000
+    ## 5  21st century fox Northeast   17022    new yor                         Media            twenty-first century fox   new york                         Media     21500
+    ## 6               mcd   Midwest   12505  illinouis Hotels, Restaurants & Leisure                          mcdonald's   illinois Hotels, Restaurants & Leisure    375000
+    ## 7               mcd      West   12117   illinois Hotels, Restaurants & Leisure                          mcdonald's   illinois Hotels, Restaurants & Leisure    375000
+    ## 8            disney      West   37519  califrnia                         Media             the walt disney company california                         Media    195000
+    ## 9            disniy     South   18113 california                         Media             the walt disney company california                         Media    195000
+    ## 10         starbuck      West   21316  wasington Hotels, Restaurants & Leisure                           starbucks washington Hotels, Restaurants & Leisure    254000
+    ## 11           warner Northeast   29318   new york                         Media                         time warner   new york                         Media     25000
+    ## 12          bestbuy   Midwest   39403   minesota                     Retailing                        best buy co.  minnesota                     Retailing    125000
+    ## 13              fox   Midwest   10304    nw york                         Media                                <NA>       <NA>                          <NA>        NA
+    ## 14              ibm Northeast   79919   new york                    Technology                                <NA>       <NA>                          <NA>        NA
+    ## 15               hp      West   50123 california                    Technology                                <NA>       <NA>                          <NA>        NA
+    ## 16             <NA>      <NA>      NA       <NA>                          <NA>     international business machines   new york                    Technology    414400
+    ## 17             <NA>      <NA>      NA       <NA>                          <NA>  hewlett packard enterprise company california                    Technology    195000
+
 
 ## Conclusion
 
@@ -849,6 +814,6 @@ The best model to solve this problem is record linkage. Record linkage provide m
 
 | Model                    | Acuraccy | Precision |
 |--------------------------|----------|-----------|
-| Record Linkage           | 80%      | 100%      |
+| **Record Linkage**       | 80%      | 100%      |
 | **Fuzzy Join - Model 1** | 53%      | 88%       |
 | **Fuzzy Join - Model 2** | 33%      | 83%       |
